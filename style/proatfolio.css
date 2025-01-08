@@ -167,6 +167,7 @@ main{
 /* footer */
 .footer-first{
     width: 580px;
+    margin: auto 0px;
 }
 .form{
     display: flex;
@@ -180,6 +181,7 @@ main{
     gap: 60px;
     justify-content: center;
     align-items: center;
+    
 }
 footer{
     background-color: #FFF8F3;
