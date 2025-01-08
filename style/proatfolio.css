@@ -58,6 +58,7 @@ nav li a{
     background-image: url("../images/developer.png"), url("../images/header_bg.png");
     background-repeat: no-repeat;
     background-position: top left , bottom right;
+    background-color: #FFF8F3;
 }
 /* banner */
 .banner{
@@ -85,4 +86,44 @@ nav li a{
 }
 .banner-contant{
     max-width: 580px;
+}
+
+/* sherd css */
+.section-taitle{
+    font-weight: bold;
+    font-size: 35px;
+    color: #181818;
+}
+.section-decription{
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+}
+/* main */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.about{
+    border-radius: 10px;
+    background-color:  #FFF8F3;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+.item-title{
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+
+}
+.title-decription{
+    font-weight: 500;
+    font-size: 20px;
+    color: #181818;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2px;
 }
